@@ -91,7 +91,7 @@
 ## Скачать
 
 ```bash
-git clone  `https://github.com/feed619/stackbridge-task`
+git clone https://github.com/feed619/stackbridge-task
 ```
 
 ## Поднять
