@@ -1,4 +1,4 @@
-# Тестовое задание - Система аутентификации и авторизации на FastAPI
+# Система аутентификации и авторизации (FastAPI)
 
 ## Способ аутентификации
 
@@ -9,19 +9,39 @@
 #### Таблицы:
 
 1. **users** — пользователи
-   - id, email, hashed_password, is_admin, first_name, last_name, middle_name, is_active, created_at, updated_at
+   - id,
+   - email
+   - hashed_password
+   - is_admin
+   - first_name
+   - last_name
+   - middle_name
+   - is_active
+   - created_at
+   - updated_at
 
 2. **sessions** — сессии пользователей
-   - id, user_id, expires_at, created_at
+   - id
+   - user_id
+   - expires_at
+   - created_at
 
 3. **roles** — роли пользователей
-   - id, name, description, created_at
+   - id
+   - name
+   - description
+   - created_at
 
-4. **endpoints** — эндпоинты (ресурсы/точки доступа)
-   - id, name, description, created_at
+4. **endpoints** — эндпоинты
+   - id
+   - name
+   - description
+   - created_at
 
-5. **access_rules** — правила доступа (связь ролей и эндпоинтов с правами)
-   - id, role_id, endpoint_id
+5. **access_rules** — правила доступа
+   - id
+   - role_id
+   - endpoint_id
    - read_permission, read_all_permission
    - create_permission
    - update_permission, update_all_permission
@@ -29,7 +49,8 @@
    - created_at, updated_at
 
 6. **user_roles** — назначение ролей пользователям
-   - user_id, role_id (составной первичный ключ, user_id уникален)
+   - user_id
+   - role_id
 
 ### Модель прав доступа
 
@@ -70,7 +91,7 @@
 ## Скачать
 
 ```bash
-git clone  https://github.com/feed619/stackbridge-task.git
+git clone  `https://github.com/feed619/stackbridge-task`
 ```
 
 ## Поднять
