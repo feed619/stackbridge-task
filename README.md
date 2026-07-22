@@ -1,4 +1,4 @@
-# Система аутентификации и авторизации (FastAPI)
+# Тестовое задание - Система аутентификации и авторизации на FastAPI
 
 ## Способ аутентификации
 
@@ -70,7 +70,7 @@
 ## Скачать
 
 ```bash
-git clone  `https://github.com/feed619/stackbridge-task`
+git clone  https://github.com/feed619/stackbridge-task.git
 ```
 
 ## Поднять
